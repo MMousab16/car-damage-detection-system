@@ -1,0 +1,129 @@
+####################################
+# 🚫 MACHINE LEARNING MODELS
+####################################
+model/
+models/
+checkpoints/
+weights/
+
+*.pth
+*.pt
+*.onnx
+*.h5
+*.ckpt
+*.pb
+*.joblib
+*.pkl
+
+####################################
+# 🚫 DATASETS (RAW / PROCESSED)
+####################################
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.npz
+*.npy
+
+####################################
+# 🚫 PYTHON CACHE & TEMP FILES
+####################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+####################################
+# 🚫 VIRTUAL ENVIRONMENTS
+####################################
+venv/
+env/
+.venv/
+ENV/
+conda-env/
+.conda/
+
+####################################
+# 🚫 JUPYTER NOTEBOOK FILES
+####################################
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+####################################
+# 🚫 STREAMLIT FILES
+####################################
+.streamlit/secrets.toml
+
+####################################
+# 🚫 LOGS & DEBUG FILES
+####################################
+logs/
+*.log
+debug.log
+
+####################################
+# 🚫 BUILD / DIST FILES
+####################################
+build/
+dist/
+*.egg-info/
+.eggs/
+
+####################################
+# 🚫 IDE / EDITOR FILES
+####################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+####################################
+# 🚫 OS / SYSTEM FILES
+####################################
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+####################################
+# 🚫 TEST / COVERAGE FILES
+####################################
+.coverage
+htmlcov/
+.pytest_cache/
+
+####################################
+# 🚫 ENV / SECRET FILES
+####################################
+.env
+.env.*
+secrets.json
+config.yaml
+config.yml
+
+####################################
+# 🚫 FASTAPI / STREAMLIT RUNTIME
+####################################
+__pycache__/
+*.pid
+*.sock
+
+####################################
+# ✅ ALLOW IMPORTANT FILES
+####################################
+!.gitignore
+!README.md
+!requirements.txt
